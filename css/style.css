@@ -1,0 +1,36 @@
+@import url(../css/font.css);
+
+:root{
+   /*  theme font-family  */
+    --Rowdies:'Rowdies', cursive;
+    --Syne_Tactile:'Syne_Tactile', cursive;
+    --Varela_Round:'Varela_Round', cursive;
+    }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Rowdies', cursive;
+}
+.navbar-brand{
+    color: gold;
+    font-family: 'Rowdies', cursive;
+}
+.navbar-brand:hover{
+    color: snow;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+
+}
+
