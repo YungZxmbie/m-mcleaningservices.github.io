@@ -6,6 +6,13 @@
     --Syne_Tactile:'Syne_Tactile', cursive;
     --Varela_Round:'Varela_Round', cursive;
     }
+   @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+Try it Yourself »
+
 *{
     margin: 0;
     padding: 0;
